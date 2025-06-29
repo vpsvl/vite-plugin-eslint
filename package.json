@@ -1,19 +1,16 @@
 {
   "name": "@vpsvl/vite-plugin-eslint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "vite-plugin-eslint",
   "keywords": [
     "vite",
     "eslint",
     "vite-plugin"
   ],
-  "main": "src/index.js",
-  "unpkg": "src/index.js",
-  "exports": {
-    "import": "./src/index.js",
-    "default": "./src/index.js"
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
   },
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vpsvl/vite-plugin-eslint.git"
@@ -24,6 +21,10 @@
     "url": "https://github.com/vpsvl/vite-plugin-eslint/issues"
   },
   "homepage": "https://github.com/vpsvl/vite-plugin-eslint#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.44.1"
+  },
   "peerDependencies": {
     "eslint": "^8.57.1 || ^9.30.0"
   },
