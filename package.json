@@ -1,6 +1,6 @@
 {
   "name": "@vpsvl/vite-plugin-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vite-plugin-eslint",
   "keywords": [
     "vite",
