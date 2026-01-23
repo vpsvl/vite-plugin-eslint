@@ -1,6 +1,6 @@
 {
-  "name": "@vpsvl/vite-plugin-eslint",
-  "version": "1.0.1",
+  "name": "@byeyb/vite-plugin-eslint",
+  "version": "1.0.0",
   "description": "vite-plugin-eslint",
   "keywords": [
     "vite",
@@ -26,9 +26,9 @@
     "rollup": "^4.44.1"
   },
   "peerDependencies": {
-    "eslint": "^8.57.1 || ^9.30.0"
+    "eslint": "^8.57.1 || ^9.39.0"
   },
   "engines": {
-    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+    "node": ">=12.22.0"
   }
 }

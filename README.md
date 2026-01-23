@@ -1,11 +1,11 @@
 # vite-plugin-eslint
 
-`Vite`的`ESLint`插件，支持`Vite v2~7`和`ESLint v8~9`，需要`nodejs`版本为`^18.18.0 || ^20.9.0 || >=21.1.0`。
+`Vite`的`ESLint`插件，支持`Vite >=2`和`ESLint v8~9`，需要`nodejs`版本为`Vite`所要求的版本。
 
 ## 1. 安装
 
 ```
-npm install -D @vpsvl/vite-plugin-eslint
+npm install -D @byeyb/vite-plugin-eslint
 ```
 
 该插件不会安装`eslint`，需要自己安装。
@@ -20,9 +20,9 @@ npm install -D eslint@^8
 ## 2. 使用
 
 ```
-// vite.config.ts
+// vite.config.js
 import { defineConfig } from 'vite';
-import eslint from '@vpsvl/vite-plugin-eslint';
+import eslint from '@byeyb/vite-plugin-eslint';
 
 export default defineConfig({
   plugins: [
@@ -56,7 +56,7 @@ export default defineConfig({
 
 ### formatter
 
-自定义错误格式化程序、内置格式化程序的名称或自定义格式化程序的路径。
+符合eslint配置项格式的自定义错误格式化程序、内置格式化程序的名称或自定义格式化程序的路径。
 
 * 类型: `Function<String> | Function<Promise<String>> | String`
 * 默认值: `stylish`
