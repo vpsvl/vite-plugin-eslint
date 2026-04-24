@@ -1,6 +1,6 @@
 # vite-plugin-eslint
 
-`Vite`的`ESLint`插件，支持`Vite >=2`和`ESLint v8~9`，需要`nodejs`版本为`Vite`所要求的版本。
+`Vite`的`ESLint`插件，支持`Vite >=2`和`ESLint >=8`，需要`nodejs`版本为`Vite`所要求的版本。
 
 ## 1. 安装
 
@@ -11,10 +11,7 @@ npm install -D @byeyb/vite-plugin-eslint
 该插件不会安装`eslint`，需要自己安装。
 
 ```
-// eslint9, 当前最新大版本
 npm install -D eslint
-// eslint8
-npm install -D eslint@^8
 ```
 
 ## 2. 使用
